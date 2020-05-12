@@ -54,7 +54,7 @@ background: linear-gradient(0deg, rgba(170,181,199,1) 0%, rgba(255,255,255,1) 81
 }
 
 p { 
-	font: 100%/1.5 sans-serif;
+	font: 100%/1.5 papyrus;
 	max-width: 85em;
 	padding: 1em;
 }
@@ -101,10 +101,16 @@ a {
 
   }
 h1{ 
-	
+
 	padding: 1em;
 	border: 0;
 }
+
+h2 { 
+padding: 1em;
+	border: 0;
+	font-family: Satisfy, cursive;
+	}
 h3{
 	
 	padding: .2em;
@@ -162,3 +168,18 @@ nav mark a:focus {
     background-color: lightblue;
   }
 }
+.history_image {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: 20rem;
+        margin-right: auto;
+    }
+
+/*--------------------figure-------------------------*/
+
+
+
+figure {
+    position: relative;
+}
+
